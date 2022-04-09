@@ -1,0 +1,34 @@
+@import '../../utils/Styles/variables.scss';
+
+body {
+    margin: 0;
+    background-color: $brand-grey;
+}
+
+.header {
+    background-color: $brand-blue;
+    height: 48px;
+    width: 100%;
+    color: $white;
+    align-items: center;
+}
+
+.header_container {
+    height: inherit;
+    width: inherit;
+    padding: 0 0 0 16px;
+    justify-content: space-between;
+    align-items: center
+}
+
+.icon_section, .header_icon {
+    height: inherit;
+}
+
+.header_icon {
+    padding: 0 16px;
+}
+
+.header_icon:hover {
+    background-color: $brand-blue-hover
+}

@@ -1,0 +1,2 @@
+export const SAVE_USERS_INFO = 'SAVE_USERS_INFO';
+export const SELECTED_TAB = 'SELECTED_TAB';

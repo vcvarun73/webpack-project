@@ -1,0 +1,18 @@
+@import '../../../utils/Styles/variables.scss';
+
+.card {
+    width: 392px;
+    height: 100%;
+    background-color: $white;
+    box-shadow: #0000001c 0px 0.3px 0.9px, #00000021 0px 1.6px 3.6px;
+    border-radius: 2px;
+}
+
+.card_header {
+    border-bottom: 1px solid $divider-color;
+    padding: 8px 12px 8px 16px;
+}
+
+.card_body {
+    padding: 16px;
+}
